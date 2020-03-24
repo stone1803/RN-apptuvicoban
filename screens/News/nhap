@@ -1,0 +1,43 @@
+ return (
+    <SafeAreaView style={[style.container, { backgroundColor: "#a1ccf7" }]}>
+
+    <View>
+    <ScrollView>
+
+  {
+    users.map((u, i) => {
+      return (
+        <TouchableOpacity
+        title="Go to Details"
+        onPress={() => navigation.navigate('Details',{item})}
+  
+        >
+          <Card key={i}>
+        <View  style={{flexDirection:"row", margin:5}}>
+          <Image
+            style={{width:80,height:80}}
+            resizeMode="cover"
+            source={{ uri: u.avatar }}
+          />
+          <View style={{flex:1, margin:5}}>
+          <Text style={{marginLeft:5} }>{u.name}</Text>
+          <Text style={{marginLeft:5,marginTop:3}} >blalabalabalabla</Text>
+
+          </View>
+
+        </View>
+        </Card>
+        </TouchableOpacity>
+      );
+    })
+  }
+        </ScrollView>
+
+    </View>
+    
+  </SafeAreaView>
+  );
+
+
+  import { View, Text ,Image,SafeAreaView,StyleSheet,Dimensions,ScrollView,TouchableOpacity} from "react-native";
+import { Card, ListItem, Button, Icon } from "react-native-elements";

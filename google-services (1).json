@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525691376714",
+    "firebase_url": "https://apptuvi-phucmap.firebaseio.com",
+    "project_id": "apptuvi-phucmap",
+    "storage_bucket": "apptuvi-phucmap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525691376714:android:1a4221c64106f9e6b502b3",
+        "android_client_info": {
+          "package_name": "tuvi.tuvicoban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525691376714-q7nv4ibp416djqv9a035cru16cd6afvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGjw2B_Xlt23UTiDMfhNuoRVpM2y0qklU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525691376714-q7nv4ibp416djqv9a035cru16cd6afvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
